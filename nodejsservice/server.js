@@ -46,9 +46,14 @@ app.get('/getAllSalarySlab/:dept/:designation', function (req, res) {
   console.log("designation -> " + designation);
   var queryString = "SELECT pay FROM `salaryslab` WHERE dept=? AND designation=?;";
   connection.query(queryString, [dept, designation], function (error, result, fields) {
-    if (error) throw error;
-    res.send(result);
-    console.log(result)
+    if (error) {
+      console.log("error->"+error);
+      throw error;            
+    }
+   // var obj = JSON.parse(result);
+   console.log(result[0].pay);
+   //console.log(result)
+    res.send(result[0].pay);
   });
 });
 
