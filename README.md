@@ -7,24 +7,25 @@ It is microservice architecture using 3 service. In this project we are assuming
 3) # getting the salary of an employee service: While entering the employee Id you will get the salary of that employee.Its starting point is java-spring which is calling a service in node-js service to retrive the information of salary
 
 
-Pre- requisite 
-1.install java 8 using this [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.htmlm)
+## Pre- requisite 
+1.install java 8 using this and configure the classpath [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2.install [mysql](https://dev.mysql.com/downloads/mysql/)
-4. create the 2 databases for employee and salaryslab using the sql script:
-a.create-employee.sql
-b.create-salaryslab.sql
 3. install [python3](https://www.python.org/downloads/)
 4. install [pip](https://pip.pypa.io/en/stable/installing/)
-5. run "pip install flask" to install flask
-6.cd to the node js microservice  in your machine
-a.type "node server.js" 
-5.cd to the python microservice/salarymicroservice
-a. type python salary.py"
-8. run the specified jar using java -jar *.jar
+5. run "pip install flask" to install flask 
+
+## Database and tables:
+create the 2 databases for employee and salaryslab by excuting the mysql script[here](https://github.com/satyamsah/microservice/tree/master/sqlscript):
+a.create-employee.sql : It is creating employee table to stire emp id, name, dept,gender . 
+b.create-salaryslab.sql : It is creating a salaryslab table with dept , deignation and salary as columns.The reason is to create a relation between department and designation to map them to fixed salary.
+
+
+## Booting the micoservices :
+
 
 --- 
 
-1. create an employee
+1. onboarding an employee service: Simply go to 
 
 http://localhost:8080/demo/add
 
@@ -48,7 +49,7 @@ it will redirect it to
 
 http://localhost:3000/getAllSalarySlab/IT/developer1
 
-
+# consuming the micoservies using UI
 
 
 5.run the jar 
