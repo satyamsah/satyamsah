@@ -40,8 +40,12 @@ b.create-salaryslab.sql : It is creating a salaryslab table with dept , deignati
 
 # consuming the micoservies using UI
 we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web)
-1.1) Welcome.html : one stop link for all the services
-1.2) addemployee.html : It will ask for baisc info of new employee: Name,Designation, Department
-1.3) addSalarySlab.html : It will ask for Department, Designation and salary  
-1.4) FindSalary.html : It will as for Employee id to fetch the salary of the employee 
+
+1) [Welcome.html](https://github.com/satyamsah/microservice/blob/master/web/Welcome.html) : one stop link for all the services
+
+2) [addemployee.html](https://github.com/satyamsah/microservice/edit/master/README.md) : It will ask for baisc info of new employee: Name,Designation, Department
+
+3) [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation
+
+4) [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee.Only numeric values are allowed
 
