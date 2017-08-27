@@ -11,11 +11,11 @@ It is microservice architecture using 3 service. In this project we are assuming
 
 
 ## Pre- requisite 
-1.install java 8 using this and configure the classpath [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-2.install [mysql](https://dev.mysql.com/downloads/mysql/)
-3. install [python3](https://www.python.org/downloads/)
-4. install [pip](https://pip.pypa.io/en/stable/installing/)
-5. run "pip install flask" to install flask 
+1) install java 8 using this and configure the classpath [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+2)install [mysql](https://dev.mysql.com/downloads/mysql/)
+3) install [python3](https://www.python.org/downloads/)
+4) install [pip](https://pip.pypa.io/en/stable/installing/)
+5) run "pip install flask" to install flask 
 
 ## Database and tables:
 create the 2 databases for employee and salaryslab by excuting the mysql script[here](https://github.com/satyamsah/microservice/tree/master/sqlscript):
