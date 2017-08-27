@@ -30,12 +30,11 @@ create the 2 databases for employee and salaryslab by excuting the mysql script 
    
    java -jar demo-0.0.1-SNAPSHOT.jar
 
-
-2) department-salary service( python-flask) : we can enable this service by going in the [directory]  (https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python/salary.py) and run salary.py.It will run the service in port 5002:
+2) department-salary service( python-flask) : we can enable this service by going in the [directory]  (https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python/salary.py)and run salary.py.It will run the service in port 5002:
 
    python salary.py
 
-3) getting the salary of an employee service (nodejs) You can navigate to [link](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). Type:
+3) getting the salary of an employee service (nodejs) You can navigate to [link](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs) . Type:
    
    node server.js
 
