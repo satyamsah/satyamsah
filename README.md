@@ -34,7 +34,7 @@ b.create-salaryslab.sql : It is creating a salaryslab table with dept , deignati
 
    python salary.py
 
-3)getting the salary of an employee service (nodejs) You can navigate to [link](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). Type:
+3) getting the salary of an employee service (nodejs) You can navigate to [link](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). Type:
    
    node server.js
 
