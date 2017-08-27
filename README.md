@@ -43,7 +43,7 @@ we can access the link [here](https://github.com/satyamsah/microservice/tree/mas
 
 1) [Welcome.html](https://github.com/satyamsah/microservice/blob/master/web/Welcome.html) : one stop link for all the services
 
-2) [addemployee.html](https://github.com/satyamsah/microservice/edit/master/README.md) : It will ask for baisc info of new employee: Name,Designation, Department
+2) [addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) : It will ask for baisc info of new employee: Name,Designation, Department
 
 3) [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation
 
