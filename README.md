@@ -18,7 +18,7 @@ It is microservice architecture using 3 service. In this project we are assuming
 5) run "pip install flask" to install flask 
 
 ## Database and tables:
-create the 2 databases for employee and salaryslab by excuting the mysql script[here](https://github.com/satyamsah/microservice/tree/master/sqlscript):
+create the 2 databases for employee and salaryslab by excuting the mysql script [here](https://github.com/satyamsah/microservice/tree/master/sqlscript):
 
 1) create-employee.sql : It is creating employee table to stire emp id, name, dept,gender . 
 2) create-salaryslab.sql : It is creating a salaryslab table with dept , deignation and salary as columns.The reason is to create a relation between department and designation to map them to fixed salary.
@@ -31,7 +31,7 @@ create the 2 databases for employee and salaryslab by excuting the mysql script[
    java -jar demo-0.0.1-SNAPSHOT.jar
 
 
-2) department-salary service( python-flask) : we can enable this service by going in the [directory]   (https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python/salary.py) and run salary.py.It will run the service in port 5002:
+2) department-salary service( python-flask) : we can enable this service by going in the [directory]  (https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python/salary.py) and run salary.py.It will run the service in port 5002:
 
    python salary.py
 
