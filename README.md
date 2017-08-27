@@ -1,4 +1,7 @@
-1.install java 8  using this [link](http://www.oracle.com)
+
+# Employee-Department-Salary Service
+
+1.install java 8 using this [link](http://www.oracle.com)
 2.install mysql
 4. create the 2 databases for employee and salaryslab using the sql script:
 a.create-employee.sql
