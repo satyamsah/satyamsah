@@ -25,37 +25,23 @@ b.create-salaryslab.sql : It is creating a salaryslab table with dept , deignati
 
 ## Booting the micoservices :
 1) ##### onboarding an employee service(java spring boot):
-
-    
-
---- 
-
-1. onboarding an employee service: Simply go to 
-
-http://localhost:8080/demo/add
-
-name
-gender
-dept
-designation
-
-2. create a salary slab
-http://localhost:5002/addSalarySlab
-designation
-dept
-pay
-
-3. get the salary of an employee
+   Run the jar located [here](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-     0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
+   
+   java -jar demo-0.0.1-SNAPSHOT.jar
 
 
-http://localhost:8080/employee/findSalary?id=1
+2) department-salary service( python-flask) : we can enable this service by going in the [directory]    (https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python/salary.py) and run salary.py.It will run the service in port 5002:
 
-it will redirect it to 
+   python salary.py
 
-http://localhost:3000/getAllSalarySlab/IT/developer1
+3)getting the salary of an employee service (nodejs) You can navigate to [link](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). Type:
+   
+   node server.js
 
 # consuming the micoservies using UI
+we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web)
+1.1) Welcome.html : one stop link for all the services
+1.2) addemployee.html : It will ask for baisc info of new employee: Name,Designation, Department
+1.3) addSalarySlab.html : It will ask for Department, Designation and salary  
+1.4) FindSalary.html : It will as for Employee id to fetch the salary of the employee 
 
-
-5.run the jar 
-6.do 
