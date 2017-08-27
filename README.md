@@ -39,7 +39,7 @@ b.create-salaryslab.sql : It is creating a salaryslab table with dept , deignati
    node server.js
 
 # consuming the micoservies using UI
-we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web)
+we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web) to access the web UI
 
 1) [Welcome.html](https://github.com/satyamsah/microservice/blob/master/web/Welcome.html) : one stop link for all the services
 
