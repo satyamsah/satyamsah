@@ -53,9 +53,9 @@ we can access the link [here](https://github.com/satyamsah/microservice/tree/mas
 
 1) [Welcome.html](https://github.com/satyamsah/microservice/blob/master/web/Welcome.html) : Welcome link for all the services
 
-2) [addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) : It will ask for basic info of new employee: Name,Designation, Department,Gender
+2) [addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) : It will ask for basic info of new employee: Name,Designation, Department,Gender. It will save the information in the employee table
 
-3) [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation
+3) [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation. It will save the information in the salaryslab table
 
-4) [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee. Only numeric values are allowed
+4) [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee. Only numeric values are allowed. It will contact both the employee table and  salaryslab table
 
