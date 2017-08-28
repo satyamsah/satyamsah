@@ -26,11 +26,11 @@ create the 2 databases for employee and salaryslab by excuting the mysql script 
 
 ## Booting the micoservices :
 1) ##### onboarding an employee service(java spring boot):
-   Run the jar located [here](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-     0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
+   Run the jar located[here](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-     0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
    
    java -jar demo-0.0.1-SNAPSHOT.jar
 
-2) department-salary service( python-flask) : we can enable this service by going in the [directory]  (https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python/salary.py)and run salary.py.It will run the service in port 5002:
+2) department-salary service( python-flask) : we can enable this service by going in the [directory](https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python/salary.py)and run salary.py.It will run the service in port 5002:
 
    python salary.py
 
