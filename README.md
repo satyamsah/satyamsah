@@ -44,9 +44,9 @@ we can enable this service by changing directory to [create-deptmentandsalary-se
 3) ##### getting the salary of an employee service (nodejs):
 You can change directory to [fetch-salary-service-nodej](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). 
 
-    a) type `npm install` on terminal/commandline which will download all the dependenies specified in [package.json]
+    a) type npm install on terminal/commandline which will download all the dependenies specified in [package.json]
    
-    b )type `node server.js` to boot the server
+    b) type node server.js to boot the server
 
 # consuming the micoservies using UI
 we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web) to access the web UI
