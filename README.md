@@ -41,11 +41,11 @@ create the 2 databases for employee and salaryslab by excuting the mysql script 
 # consuming the micoservies using UI
 we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web) to access the web UI
 
-1) [Welcome.html](https://github.com/satyamsah/microservice/blob/master/web/Welcome.html) : one stop link for all the services
+1) [Welcome.html](https://github.com/satyamsah/microservice/blob/master/web/Welcome.html) : Welcome link for all the services
 
 2) [addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) : It will ask for basic info of new employee: Name,Designation, Department,Gender
 
 3) [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation
 
-4) [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee.Only numeric values are allowed
+4) [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee. Only numeric values are allowed
 
