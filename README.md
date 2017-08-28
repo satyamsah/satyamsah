@@ -3,11 +3,11 @@
 ## Description
 It is microservice architecture using 3 service. In this project we are assuming that an employee working in a department will have same salary as the other employee working in the same department with same designation.So we can fetch the salary of the employee using the mapping of department and employee :
 1) #### [onboarding an employee service](https://github.com/satyamsah/microservice/tree/master/employee-onboard-service-javaspring): 
-   It is used to register an employee . It is written is java-spring
+   It is used to register an employee . It will ask for basic info of new employee: Name,Designation, Department,Gender. It is written is "java-spring-boot"
 2) #### [department-salary service](https://github.com/satyamsah/microservice/tree/master/create-deptmentandsalary-service-python):
-   It is use to invoke POST operation to create a table. It will have department, designation and salary. So that a specific department haing a specific designation will have a unique salary. It is written in python
+   It is use to invoke POST operation to create a table. It will have department, designation and salary. It means employees with same  designation in the same department will have same salary. It is written in "python and flask"
 3) #### [getting the salary of an employee service](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs): 
-   While entering the employee Id you will get the salary of that employee.Its starting point is java-spring which is calling a service    in node-js service to retrive the information of salary
+   While entering the employee Id you will get the salary of that employee.Its starting point is java-spring which is calling a service    in "node-js" service to retrive the information of salary
 
 
 ## Pre- requisite 
@@ -22,15 +22,12 @@ It is microservice architecture using 3 service. In this project we are assuming
 7. confirm that nodjs has been installed by typing `node --version` on terminal/commandline
 8. Install [npm](https://www.npmjs.com/get-npm)
 9. Check whether NPM is succesfully installed has been installed by typing `npm --version` on terminal/commandline
-10. change directory to [fetch-salary-service-nodejs](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs) directory
-11. (https://github.com/satyamsah/microservice/blob/master/fetch-salary-service-nodejs/package.json)  
-12. type `node server.js` terminal/commandline on  to start the node server
 
 ## Database and tables:
-create the 2 databases for employee and salaryslab by excuting the mysql script [here](https://github.com/satyamsah/microservice/tree/master/sqlscript):
+Create the 2 databases and 2 tables for employee and salaryslab by excuting the mysql scripts.To do so, install any mysql client preferebly [mysql workbench](https://www.mysql.com/products/workbench) to run mysql scripts below:
 
-1) [create-employee.sql](https://github.com/satyamsah/microservice/blob/master/sqlscript/create-employee.sql) : It is creating employee table to stire emp id, name, dept,gender . 
-2) [create-salaryslab.sql](https://github.com/satyamsah/microservice/blob/master/sqlscript/create-salaryslab.sql) : It is creating a salaryslab table with dept , deignation and salary as columns.The reason is to create a relation between department and designation to map them to fixed salary.
+1) [create-employee.sql](https://github.com/satyamsah/microservice/blob/master/sqlscript/create-employee.sql) : It is creating employee table to store emp id,name, dept,gender . 
+2) [create-salaryslab.sql](https://github.com/satyamsah/microservice/blob/master/sqlscript/create-salaryslab.sql) : It is creating a salaryslab table with dept , deignation and salary as columns.The reason is to create a relation between department and designation to map them to fixed salary.It means employees with same designation in the same department will have same salary.
 
 
 ## Booting the micoservices :
@@ -41,7 +38,7 @@ create the 2 databases for employee and salaryslab by excuting the mysql script 
 
 2) department-salary service( python-flask) : we can enable this service by changing directory to [create-deptmentandsalary-service-python](https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python) and run salary.py.It will run the service in port 5002:
 
-   type `python salary.py' to boot the server
+   type `python salary.py` to boot the server
 
 3) getting the salary of an employee service (nodejs) You can change directory to [fetch-salary-service-nodej](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). 
 
