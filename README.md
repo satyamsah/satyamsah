@@ -15,7 +15,7 @@ It is microservice architecture using 3 service. In this project we are assuming
 2) install [mysql](https://dev.mysql.com/downloads/mysql/)
 3) install [python3](https://www.python.org/downloads/)
 4) install [pip](https://pip.pypa.io/en/stable/installing/)
-5) type `pip install flask`  on terminal/commandline to install flask 
+5) type `pip install flask`  on terminal/commandline to install [flask](https://pypi.python.org/pypi/Flask) 
 6) type `pip install PyMySQL` to [install python msql connector] (https://pypi.python.org/pypi/PyMySQL/0.7.6)
 
 6) install [NodeJS](https://nodejs.org/en/download/) 
