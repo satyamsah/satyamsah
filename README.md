@@ -11,7 +11,7 @@ It is microservice architecture using 3 service. In this project we are assuming
 
 
 ## Pre- requisite 
-1)  install java 8 using this and configure the classpath [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+1)  install java 8 using this [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and configure      the classpath
 2) install [mysql](https://dev.mysql.com/downloads/mysql/)
 3) install [python3](https://www.python.org/downloads/)
 4) install [pip](https://pip.pypa.io/en/stable/installing/)
