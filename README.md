@@ -32,7 +32,7 @@ Create the 2 databases and 2 tables for employee and salaryslab by excuting the 
 
 ## Booting the micoservices :
 1) ##### onboarding an employee service(java spring boot):
-   Run the jar located[employee-onboard-service-javaspring](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
+   Run the jar located [employee-onboard-service-javaspring](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
    
    type `java -jar demo-0.0.1-SNAPSHOT.jar` to boot the server
 
