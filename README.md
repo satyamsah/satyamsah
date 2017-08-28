@@ -16,14 +16,14 @@ It is microservice architecture using 3 service. In this project we are assuming
 3) install [python3](https://www.python.org/downloads/)
 4) install [pip](https://pip.pypa.io/en/stable/installing/)
 5) type `pip install flask`  on terminal/commandline to install [flask](https://pypi.python.org/pypi/Flask) 
-6) type `pip install PyMySQL` to [install python msql connector] (https://pypi.python.org/pypi/PyMySQL/0.7.6)
+6) type `pip install PyMySQL` to [install python msql connector](https://pypi.python.org/pypi/PyMySQL/0.7.6)
 
 6) install [NodeJS](https://nodejs.org/en/download/) 
 7. confirm that nodjs has been installed by typing `node --version` on terminal/commandline
 8. Install [npm](https://www.npmjs.com/get-npm)
 9. Check whether NPM is succesfully installed has been installed by typing `npm --version` on terminal/commandline
 10. change directory to [fetch-salary-service-nodejs](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs) directory
-11. type `npm install` on terminal/commandline which will download all the dependenies specified in [package.json](https://github.com/satyamsah/microservice/blob/master/fetch-salary-service-nodejs/package.json)  
+11. (https://github.com/satyamsah/microservice/blob/master/fetch-salary-service-nodejs/package.json)  
 12. type `node server.js` terminal/commandline on  to start the node server
 
 ## Database and tables:
@@ -35,17 +35,19 @@ create the 2 databases for employee and salaryslab by excuting the mysql script 
 
 ## Booting the micoservices :
 1) ##### onboarding an employee service(java spring boot):
-   Run the jar located[here](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
+   Run the jar located[employee-onboard-service-javaspring](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
    
-   java -jar demo-0.0.1-SNAPSHOT.jar
+   type `java -jar demo-0.0.1-SNAPSHOT.jar` to boot the server
 
-2) department-salary service( python-flask) : we can enable this service by going in the [directory](https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python/salary.py) and run salary.py.It will run the service in port 5002:
+2) department-salary service( python-flask) : we can enable this service by changing directory to [create-deptmentandsalary-service-python](https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python) and run salary.py.It will run the service in port 5002:
 
-   python salary.py
+   type `python salary.py' to boot the server
 
-3) getting the salary of an employee service (nodejs) You can navigate to [link](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs) . Type:
+3) getting the salary of an employee service (nodejs) You can change directory to [fetch-salary-service-nodej](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). 
+
+    a) type `npm install` on terminal/commandline which will download all the dependenies specified in [package.json]
    
-   node server.js
+    b )type `node server.js` to boot the server
 
 # consuming the micoservies using UI
 we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web) to access the web UI
