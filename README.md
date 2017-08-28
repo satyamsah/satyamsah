@@ -26,7 +26,7 @@ create the 2 databases for employee and salaryslab by excuting the mysql script 
 
 ## Booting the micoservices :
 1) ##### onboarding an employee service(java spring boot):
-   Run the jar located[here](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-    0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
+   Run the jar located[here](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
    
    java -jar demo-0.0.1-SNAPSHOT.jar
 
