@@ -37,7 +37,7 @@ Create the 2 databases and 2 tables for employee and salaryslab by excuting the 
    type `java -jar demo-0.0.1-SNAPSHOT.jar` to boot the server
 
 2) ##### department-salary service( python-flask): 
-we can enable this service by changing directory to [create-deptmentandsalary-service-python](https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python) and run salary.py.It will run the service in port 5002:
+   we can enable this service by changing directory to [create-deptmentandsalary-service-python]        (https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python) and run salary.py.It will run the          service in port 5002:
 
    type `python salary.py` to boot the server
 
