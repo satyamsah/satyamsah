@@ -20,8 +20,8 @@ It is microservice architecture using 3 service. In this project we are assuming
 ## Database and tables:
 create the 2 databases for employee and salaryslab by excuting the mysql script [here](https://github.com/satyamsah/microservice/tree/master/sqlscript):
 
-1) create-employee.sql : It is creating employee table to stire emp id, name, dept,gender . 
-2) create-salaryslab.sql : It is creating a salaryslab table with dept , deignation and salary as columns.The reason is to create a relation between department and designation to map them to fixed salary.
+1) [create-employee.sql](https://github.com/satyamsah/microservice/blob/master/sqlscript/create-employee.sql) : It is creating employee table to stire emp id, name, dept,gender . 
+2) [create-salaryslab.sql](https://github.com/satyamsah/microservice/blob/master/sqlscript/create-salaryslab.sql) : It is creating a salaryslab table with dept , deignation and salary as columns.The reason is to create a relation between department and designation to map them to fixed salary.
 
 
 ## Booting the micoservices :
