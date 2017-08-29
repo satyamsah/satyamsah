@@ -1,5 +1,7 @@
 
 # Employee-Department-Salary Service
+
+![alt text](https://github.com/airavata-courses/satyamsah/blob/master/assignment1/workflow.PNG)
 ## Description
 It is microservice architecture using 3 service. In this project we are assuming that an employee working in a department will have same salary as the other employee working in the same department with same designation.So we can fetch the salary of the employee using the mapping of department and employee :
 1) #### [onboarding an employee service](https://github.com/satyamsah/microservice/tree/master/employee-onboard-service-javaspring): 
