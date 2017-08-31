@@ -63,7 +63,7 @@ we can access the link [here](https://github.com/satyamsah/microservice/tree/mas
 
 #### Note : 
 
-1) So as to get proper flow whole thr project , one need to enter proper entry in  [addemployee.html] (https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) 
+1) So as to get proper flow whole thr project , one need to enter proper entry in [addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) 
 
    First Name : Kumar
    Gender : Male
@@ -80,5 +80,7 @@ we can access the link [here](https://github.com/satyamsah/microservice/tree/mas
 
    Enter employee Id:(only numeric): 1
 
-It will fetch you the salary.
+
+
+   It will fetch you the salary.
 
