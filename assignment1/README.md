@@ -16,7 +16,7 @@ It is microservice architecture using 3 service. In this project we are assuming
 1)  install java 8 using this [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and configure      the classpath
 2) install [mysql](https://dev.mysql.com/downloads/mysql/) if not installed
 3) install [python3](https://www.python.org/downloads/) if not installed
-4) Install pip3 in ubuntu by typing `sudo apt-get install python3-pip`. [pip](https://pip.pypa.io/en/stable/installing/).
+4) Install pip3 in ubuntu by typing `sudo apt-get install python3-pip` .Link for [pip](https://pip.pypa.io/en/stable/installing/).
 5) type `sudo pip3 install flask` on terminal/commandline to install [flask](https://pypi.python.org/pypi/Flask) 
 6) type  `sudo apt-get install python3-pymysql` in ubuntu to [install python msql connector](https://pypi.python.org/pypi/PyMySQL/0.7.6)
 
