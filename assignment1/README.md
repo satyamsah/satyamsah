@@ -18,11 +18,11 @@ It is microservice architecture using 3 service. In this project we are assuming
 3) install [python3](https://www.python.org/downloads/)
 4) install [pip](https://pip.pypa.io/en/stable/installing/)
 5) type `pip install flask`  on terminal/commandline to install [flask](https://pypi.python.org/pypi/Flask) 
-6) type `pip install PyMySQL` to [install python msql connector](https://pypi.python.org/pypi/PyMySQL/0.7.6)
+6) type `pip install PyMySQL` or `sudo apt-get install python3-pymysql` to [install python msql connector](https://pypi.python.org/pypi/PyMySQL/0.7.6)
 
-6) install [NodeJS](https://nodejs.org/en/download/) 
+6) install [NodeJS](https://nodejs.org/en/download/) or in ubuntu type `sudo apt-get install nodejs`
 7. confirm that nodjs has been installed by typing `node --version` on terminal/commandline
-8. Install [npm](https://www.npmjs.com/get-npm)
+8. Install [npm](https://www.npmjs.com/get-npm) or in ubunut type `sudo apt-get install npm` 
 9. Check whether NPM is succesfully installed has been installed by typing `npm --version` on terminal/commandline
 
 ## Database and tables:
