@@ -65,20 +65,20 @@ we can access the link [here](https://github.com/satyamsah/microservice/tree/mas
 
 1) So as to get proper flow whole thr project , one need to enter proper entry in [addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) 
 
-   First Name : Kumar
-   Gender : Male
-   Department : IT
-   Designation: SDE1
+   First Name : Kumar  
+   Gender : Male  
+   Department : IT  
+   Designation: SDE1  
 
 2) And the same kind of entry in the [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html):
 
-   Designation: SDE1
-   Department : IT
-   Salary: 20000
+   Designation: SDE1  
+   Department : IT  
+   Salary: 20000  
 
 3) Now,when navigate to [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) and enter:
 
-   Enter employee Id:(only numeric): 1
+   Enter employee Id:(only numeric): 1  
 
 
 
