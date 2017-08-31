@@ -57,7 +57,28 @@ we can access the link [here](https://github.com/satyamsah/microservice/tree/mas
 
 2) [addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) : It will ask for basic info of new employee: Name,Designation, Department,Gender. It will save the information in the employee table
 
-3) [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation. It will save the information in the salaryslab table
+3) [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation. It will save the information in the salaryslab table.
 
-4) [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee. Only numeric values are allowed. It will contact both the employee table and  salaryslab table
+4) [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee. Only numeric values are allowed. It will contact both the employee table and  salaryslab table. The employee id is auto-genreted numeric and is hidden from user's input. It starts from 1.
+
+####Note : 
+So as to get proper flow whole thr project , one need to enter proper entry in  [addemployee.html] (https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) 
+
+
+First Name : Kumar
+Gender : Male
+Department : IT
+Designation: SDE1
+
+And the same kind of entry in the [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html):
+
+Designation: SDE1
+Department : IT
+Salary: 20000
+
+Now,when navigate to [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) and enter:
+
+Enter employee Id: 1
+
+It will fetch you the salary.
 
