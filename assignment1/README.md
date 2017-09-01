@@ -46,7 +46,7 @@ Create the 2 databases and 2 tables for employee and salaryslab by excuting the 
 3) ##### getting the salary of an employee service (nodejs):
    You can change directory to [fetch-salary-service-nodej](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). 
 
-    a) type npm install on terminal/commandline which will download all the dependenies specified in [package.json]
+    a) type `npm install` on terminal/commandline which will download all the dependenies specified in [package.json]
    
     b) type `node server.js` to boot the server
 
