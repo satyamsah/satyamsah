@@ -48,7 +48,7 @@ Create the 2 databases and 2 tables for employee and salaryslab by excuting the 
 
     a) type npm install on terminal/commandline which will download all the dependenies specified in [package.json]
    
-    b) type node server.js to boot the server
+    b) type `node server.js` to boot the server
 
 # consuming the micoservies using UI
 we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web) to access the web UI
