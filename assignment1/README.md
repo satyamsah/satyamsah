@@ -28,27 +28,27 @@ It is microservice architecture using 3 service. In this project we are assuming
 ## Database and tables:
 Create the 2 databases and 2 tables for employee and salaryslab by excuting the mysql scripts.To do so, install any mysql client preferebly [mysql workbench](https://www.mysql.com/products/workbench) to run mysql scripts below:
 
-1) [create-employee.sql](https://github.com/satyamsah/microservice/blob/master/sqlscript/create-employee.sql) : It is creating employee table to store emp id,name, dept,gender . 
-2) [create-salaryslab.sql](https://github.com/satyamsah/microservice/blob/master/sqlscript/create-salaryslab.sql) : It is creating a salaryslab table with dept , deignation and salary as columns.The reason is to create a relation between department and designation to map them to fixed salary.It means employees with same designation in the same department will have same salary.
+1) [create-employee.sql](https://github.com/airavata-courses/satyamsah/blob/master/assignment1/sqlscript/create-employee.sql) : It is creating employee table to store emp id,name, dept,gender . 
+2) [create-salaryslab.sql](https://github.com/airavata-courses/satyamsah/blob/master/assignment1/sqlscript/create-salaryslab.sql) : It is creating a salaryslab table with dept , deignation and salary as columns.The reason is to create a relation between department and designation to map them to fixed salary.It means employees with same designation in the same department will have same salary.
 
 
 ## Booting the micoservices :
 1) ##### onboarding an employee service(java spring boot):
    Run the jar located [employee-onboard-service-javaspring](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
    
-   type `java -jar demo-0.0.1-SNAPSHOT.jar` to boot the server. Keep the terminal/commandline running without stopping the service 
+   type `java -jar demo-0.0.1-SNAPSHOT.jar` to boot the server
 
 2) ##### department-salary service( python-flask): 
    we can enable this service by changing directory to [create-deptmentandsalary-service-python](https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python) and run salary.py.It will run the          service in port 5002:
 
-   type `python salary.py` to boot the server.Keep the terminal/commandline running without stopping the service 
+   type `python salary.py` to boot the server
 
 3) ##### getting the salary of an employee service (nodejs):
    You can change directory to [fetch-salary-service-nodej](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). 
 
-    a) type `npm install` on terminal/commandline which will download all the dependenies specified in [package.json]
+    a) type npm install on terminal/commandline which will download all the dependenies specified in [package.json]
    
-    b) type `node server.js` to boot the server.Keep the terminal/commandline running without stopping the service 
+    b) type node server.js to boot the server
 
 # consuming the micoservies using UI
 we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web) to access the web UI
