@@ -4,11 +4,14 @@
 ![alt text](https://github.com/airavata-courses/satyamsah/blob/master/assignment1/workflowdiagram.PNG)
 ## Description
 It is microservice architecture using 3 service. In this project we are assuming that an employee working in a department will have same salary as the other employee working in the same department with same designation.So we can fetch the salary of the employee using the mapping of department and employee :
-1) #### [onboarding an employee service](https://github.com/satyamsah/microservice/tree/master/employee-onboard-service-javaspring): 
+
+1) ####API gateway: It is a welcome page running on `http://localhost:8090`. It is gateway for 3 services.
+
+2) #### [onboarding an employee service](https://github.com/satyamsah/microservice/tree/master/employee-onboard-service-javaspring): 
    It is used to register an employee . It will ask for basic info of new employee: Name,Designation, Department,Gender. It is written is "java-spring-boot"
-2) #### [department-salary service](https://github.com/satyamsah/microservice/tree/master/create-deptmentandsalary-service-python):
+3) #### [department-salary service](https://github.com/satyamsah/microservice/tree/master/create-deptmentandsalary-service-python):
    It is use to invoke POST operation to create a table. It will have department, designation and salary. It means employees with same  designation in the same department will have same salary. It is written in "python and flask"
-3) #### [getting the salary of an employee service](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs): 
+4) #### [getting the salary of an employee service](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs): 
    While entering the employee Id you will get the salary of that employee.Its starting point is java-spring which is calling a service    in "node-js" service to retrive the information of salary
 
 
@@ -33,17 +36,21 @@ Create the 2 databases and 2 tables for employee and salaryslab by excuting the 
 
 
 ## Booting the micoservices :
-1) ##### onboarding an employee service(java spring boot):
+
+1) ##### booting the API gateway: 
+    Run the jar located [employee-onboard-service-javaspring](https://github.com/airavata-courses/satyamsah/blob/master/assignment1/APIGateway/target/demo-0.0.1-SNAPSHOT.jar). It will run this service at port 8090:
+
+2) ##### onboarding an employee service(java spring boot):
    Run the jar located [employee-onboard-service-javaspring](https://github.com/satyamsah/microservice/blob/master/employee-onboard-service-javaspring/target/demo-0.0.1-SNAPSHOT.jar). It will run this service at port 8080:
    
    type `java -jar demo-0.0.1-SNAPSHOT.jar` to boot the server
 
-2) ##### department-salary service( python-flask): 
+3) ##### department-salary service( python-flask): 
    we can enable this service by changing directory to [create-deptmentandsalary-service-python](https://github.com/satyamsah/microservice/blob/master/create-deptmentandsalary-service-python) and run salary.py.It will run the          service in port 5002:
 
    type `python salary.py` to boot the server
 
-3) ##### getting the salary of an employee service (nodejs):
+4) ##### getting the salary of an employee service (nodejs):
    You can change directory to [fetch-salary-service-nodej](https://github.com/satyamsah/microservice/tree/master/fetch-salary-service-nodejs). 
 
     a) type npm install on terminal/commandline which will download all the dependenies specified in [package.json]
@@ -53,13 +60,13 @@ Create the 2 databases and 2 tables for employee and salaryslab by excuting the 
 # consuming the micoservies using UI
 we can access the link [here](https://github.com/satyamsah/microservice/tree/master/web) to access the web UI
 
-1) [Welcome.html](https://github.com/satyamsah/microservice/blob/master/web/Welcome.html) : Welcome link for all the services
+1) [http://localhost:8090/](https://github.com/satyamsah/microservice/blob/master/web/Welcome.html) : Welcome link for all the services.The API Gateway. 
 
-2) [addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) : It will ask for basic info of new employee: Name,Designation, Department,Gender. It will save the information in the employee table
+2) [http://localhost:8090/addemployee.html](https://github.com/satyamsah/microservice/blob/master/web/addemployee.html) : It will ask for basic info of new employee: Name,Designation, Department,Gender. It will save the information in the employee table
 
-3) [addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation. It will save the information in the salaryslab table.
+3) [http://localhost:8090/addSalarySlab.html](https://github.com/satyamsah/microservice/blob/master/web/addSalarySlab.html) : It will ask for Department, Designation and Salary assigned. The salary is mapped to dept and designation. It will save the information in the salaryslab table.
 
-4) [FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee. Only numeric values are allowed. It will contact both the employee table and  salaryslab table. The employee id is auto-genreted numeric and is hidden from user's input. It starts from 1.
+4) [http://localhost:8090/FindSalary.html](https://github.com/satyamsah/microservice/blob/master/web/FindSalary.html) : It will ask for Employee id to fetch the salary of the employee. Only numeric values are allowed. It will contact both the employee table and  salaryslab table. The employee id is auto-genreted numeric and is hidden from user's input. It starts from 1.
 
 #### Note : 
 
